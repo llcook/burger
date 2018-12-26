@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Allows users to input information. The info is then displayed on the page. A button on the page moves that info to another part of the parge. All info is stored in a database.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llcook/burger.git"
+  },
+  "keywords": [
+    "express",
+    "handlebars",
+    "database",
+    "heroku",
+    "mysql"
+  ],
+  "author": "llc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llcook/burger/issues"
+  },
+  "homepage": "https://github.com/llcook/burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
