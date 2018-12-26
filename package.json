@@ -2,7 +2,7 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "Allows users to input information. The info is then displayed on the page. A button on the page moves that info to another part of the parge. All info is stored in a database.\"",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
