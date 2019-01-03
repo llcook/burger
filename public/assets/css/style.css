@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://media.giphy.com/media/ToMjGplHPoYqSg7oACc/giphy.gif");
+    background-repeat: none;
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+.content-container {
+    background-color: rgba(0, 0, 255, 0.8);
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px 80px;
+}
+
+h1 {
+    font-family: 'Baloo Da', cursive;
+    font-size: 48px;
+    margin: 50px 50px 30px 50px;
+    text-shadow: 4px 6px #302929;
+}
+
+h2 {
+    font-family: 'Baloo Da', cursive;
+    font-size: 36px;
+    margin: 20px;
+    text-shadow: 4px 6px #302929;
+}
+
+h3 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 24px;
+    margin: 30px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.form-group input {
+    display: inline;
+}
