@@ -1,15 +1,6 @@
 // * Inside the `connection.js` file, setup the code to connect Node to MySQL.
 
 var mysql = require("mysql");
-
-// var connection = mysql.createConnection({
-//     host: "localhost",
-//     port: 8889,
-//     user: "root",
-//     password: "root",
-//     database: "burgers_db"
-// });
-
 var connection;
 
 // Heroku deployment
@@ -21,8 +12,9 @@ if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "hacktheplanet",
-        database: "todoagain_db"
+        password: "root",
+        database: "burgers_db",
+        port: 8889
     });
 };
 /////////////////////////////
