@@ -1,6 +1,6 @@
 # It's a burger buffet!
 
-## This app allows users to alter a server-side database on the front end.
+## This app allows users to use front-end elements to add, delete and alter database items.
 
 * User submits an item to the database via input field, also setting the item's boolean value via radio buttons
 * Handlebars reads the item's boolean value and places it appropriately on the HTML page
