@@ -42,6 +42,7 @@ ul {
 
 button {
     margin: 5px;
+    margin-bottom: 15px;
 }
 
 .form-group {
@@ -50,4 +51,12 @@ button {
 
 .form-group input {
     display: inline;
+}
+
+.delete-burger {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
 }

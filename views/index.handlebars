@@ -7,26 +7,26 @@
 <div class="content-container">
 
 <h2>Burger Menu</h2>
-<ul>
+<p>
   {{#each burgers}}
     {{#unless devoured}}
     {{burger_name}}
       {{> burgers/burger-block devoured=true}}
     {{/unless}}
   {{/each}}
-</ul>
+</p>
 
 <hr/>
 
 <h2>Inventory</h2>
-<ul>
+<p>
   {{#each burgers}}
     {{#if devoured}}
     {{burger_name}}
       {{> burgers/burger-block devoured=false}}
     {{/if}}
   {{/each}}
-</ul>
+</p>
 
 <h3>Add to the Menu</h3>
 <form class="create-form">
